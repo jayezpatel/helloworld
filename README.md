@@ -1,4 +1,4 @@
 # helloworld
 This is test of my Github skills
 
-This is push from my Desktop
+This it quite an useful tool to experiment with.
