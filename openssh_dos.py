@@ -10,7 +10,7 @@ def ssh_login(ssh_server):
     ssh_conn = paramiko.SSHClient()
     ssh_conn.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
-    ssh_conn.connect('ssh_server', username='admin', password=passwd )
+    ssh_conn.connect(ssh_server, username='admin', password=passwd )
 
 def main():
     while len(sys.argv) != 2:
